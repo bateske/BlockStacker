@@ -1,10 +1,9 @@
-#ArduBreakout
+#Block Stacker
 
-##Building and Uploading
-Using `git` clone the repository.
+Or is it Box Stacker?
 
-**From the Linux command line or Windows Powershell**
+A timing based game where you stack blocks/boxes on top of each other.
 
-    $ git clone https://github.com/Arduboy/ArduBreakout.git
+Adapted from dragula96 to have pins configured for the production Arduboy
 
-Open the .ino file in the Arduino IDE, select the **Leonardo** board as the target platform. Compile the source code, and upload to the Arduboy.
+Mlxxxp will hopefully further adapt the game to his awesome Arduboy 2 library.
