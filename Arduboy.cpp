@@ -14,8 +14,8 @@ void Arduboy::start()
   pinMode(PIN_DOWN_BUTTON, INPUT_PULLUP);
   pinMode(PIN_A_BUTTON, INPUT_PULLUP);
   pinMode(PIN_B_BUTTON, INPUT_PULLUP);
-  tunes.initChannel(A2);  // Speaker Pin 1
-  tunes.initChannel(A3);  // Speaker Pin 2
+  tunes.initChannel(5);  // Speaker Pin 1
+  tunes.initChannel(13);  // Speaker Pin 2
 
 
   csport = portOutputRegister(digitalPinToPort(CS));
